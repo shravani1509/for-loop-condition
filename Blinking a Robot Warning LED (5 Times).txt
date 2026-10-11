@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    
+    // Loops 5 times to turn the light on and off
+    for (i = 1; i <= 5; i++) {
+        printf("LED turned ON\n");
+        printf("LED turned OFF\n");
+    }
+    
+    printf("Robot is ready to drive!\n");
+    return 0;
+}

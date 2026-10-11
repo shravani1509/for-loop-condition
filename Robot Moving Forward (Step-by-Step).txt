@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int step;
+    
+    // Counts from step 1 up to step 3
+    for (step = 1; step <= 3; step++) {
+        printf("Robot wheels driving... Step %d done!\n", step);
+    }
+    
+    printf("Robot reached the destination.\n");
+    return 0;
+}

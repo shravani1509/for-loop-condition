@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int count;
+    
+    // Starts at 3, decreases by 1 (count--), stops after 1
+    for (count = 3; count >= 1; count--) {
+        printf("Robot launching in... %d\n", count);
+    }
+    
+    printf("ROBOT START! \n");
+    return 0;
+}
